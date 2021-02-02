@@ -258,11 +258,11 @@ tr:hover td{
 }
 
 .listagrid{
-    width: 100%;
+    width: 97%;
     margin: 10px;
-    border-top: 4px solid blueviolet ;
+    border: 4px solid blueviolet ;
     display: grid;
-    grid-template-columns: 1000px 1000px;
+    grid-template-columns: 900px 900px;
 margin: auto;
 padding-left: 20px ;
 padding-right: 20px;
