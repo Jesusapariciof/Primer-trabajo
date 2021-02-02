@@ -1,0 +1,229 @@
+*{ margin: 0;
+    padding: 0;
+
+
+}
+
+.menu{
+    border-bottom: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color:darkblue;
+    padding:20px 50px 10px 0px;
+    height: 50px;
+
+}
+
+.menu > a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+
+}
+
+.menu > a:hover{
+color: rgb(14, 151, 9);
+}
+
+.background{
+height: 300px;
+width: 100%;
+background-image: url(/img/1586872745142.jpg);
+background-position: center;
+}
+.principal{
+    min-height: calc(100vh - 350px - 150px);
+    height: 600px;
+}
+
+.proximasfechas{
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 30px;
+color: coral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fechas{
+    height: 300px;
+    width: 100%;
+display: grid;
+grid-template-columns: 40% 40%;
+grid-template-rows:300px;
+grid-gap:10px;
+justify-content: space-around;
+margin: 80px 0px 80px 0px; 
+color: white;
+text-align: center;
+}
+.fechas > div{
+display: block;
+background-color: #0a16c0;
+padding: 20px 0px 0px 0px;
+font-size: 35px;
+padding-top: 30px;
+border-radius: 20%;
+}
+
+.fechas > div:hover{
+background-color:coral;    
+}
+
+.button{
+    background:#3498db;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c37;
+    border-radius: 50px;
+    
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+
+    }
+
+
+.footer{
+
+    height: 150px;
+    width: 100%;
+    border: 2px solid orange;
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flogo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.fpolitica{
+    padding: 10px;
+    width: 300px;
+}
+.fpolitica > ul{
+    list-style: none;  
+}
+.fpolitica > ul li{
+    padding: 5px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.fcontact{
+    padding: 10px;
+}
+.fcontact > ul{
+    list-style: none;
+}
+.fcontact > ul li{
+font-size: 20px;
+text-align: justify;
+padding: 20px;
+}
+.conocenos{
+
+    min-height: calc(100vh - 350px - 150px);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+
+}
+.cabecera{
+    padding: 20px;
+    margin: 20px 150px 20px 150px;
+    font-size: 20px;
+font-style: italic;
+}
+.texto1{
+    padding: 10px;
+    
+}
+.conocenos > .cabecera > h1{
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mentores{
+    height: 220px;
+}
+.mentor{
+    display: flex;
+    }
+.biografia{
+    height: 153px;
+text-align: left;
+padding: 10px 50px 50px 20px;
+background-color:rgb(248, 162, 131);
+font-size: 25px;
+font-style: oblique;
+border-style: double;
+border-radius: 2%;
+}
+
+.nombre{
+    color: blue;
+    font-size: 2.2em;
+font-style: italic;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 0px 0px 30px 0px;
+}
+.fotomentor{
+    border-radius: 50%;
+    transition: 0,5s;
+}
+
+.fotomentor:hover{
+    transform: scale(1.5);
+}
+.form{
+    min-height: calc(100vh - 350px - 150px);
+    height: 800px;
+
+display: flex;
+justify-content: center;
+background-image: url(/img/background-image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.contenidoformulario{
+margin-top: 30%;
+
+
+}
+.rellenoformulario{
+    border: 5px solid coral;
+    display: grid;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.contacto{
+    text-align: center;
+    font-family: cursive;
+    font: italic;
+
+
+}
