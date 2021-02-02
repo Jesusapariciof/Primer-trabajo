@@ -256,3 +256,40 @@ tr:hover td{
     background-color: #369681;
     color: white;
 }
+
+.listagrid{
+    width: 100%;
+    margin: 10px;
+    border-top: 4px solid blueviolet ;
+    display: grid;
+    grid-template-columns: 1000px 1000px;
+margin: auto;
+padding-left: 20px ;
+padding-right: 20px;
+background-image: url(/img/handmade-illustration-light-sky-blue-light-yellow-watercolor-background-handmade-illustration-light-sky-blue-light-yellow-153233787.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.lista1{
+    margin: 30px;
+    padding: 30px;
+    width: 50%;
+    font-size: 25px;
+    color: rgb(20, 19, 19);
+    font-family: monospace;
+}
+.lista1 li{
+    padding: 5px;
+
+}
+.lista1 li ul{
+    font-family: cursive;
+    color: #246355;
+}
+
+.lista1 h3{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
