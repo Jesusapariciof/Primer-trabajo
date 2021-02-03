@@ -32,9 +32,22 @@ width: 100%;
 background-image: url(/img/1586872745142.jpg);
 background-position: center;
 }
+
+@media (max-width: 768px){
+    .background{
+        background-size: cover;
+    }
+}
 .principal{
     min-height: calc(100vh - 350px - 150px);
     height: 600px;
+}
+
+@media (max-width: 768px){
+    .principal{
+        background-color: yellow;
+        height: 700px;
+    }
 }
 
 .proximasfechas{
@@ -56,6 +69,15 @@ justify-content: space-around;
 margin: 80px 0px 80px 0px; 
 color: white;
 text-align: center;
+}
+
+@media (max-width:768px){
+    .fechas{
+        display: grid;
+        grid-template-columns:300px ;
+        grid-template-rows: 300px;
+        margin-top: 10px;
+    }
 }
 .fechas > div{
 display: block;
@@ -90,6 +112,7 @@ background-color:coral;
     justify-content: space-around;
 
     }
+
 
 
 .footer{
@@ -143,6 +166,12 @@ padding: 20px;
     padding: 10px;
 
 }
+@media (max-width: 768px){
+    .conocenos{
+        background-color: yellow;
+    }
+}
+
 .cabecera{
     padding: 20px;
     margin: 20px 150px 20px 150px;
@@ -172,6 +201,24 @@ font-size: 25px;
 font-style: oblique;
 border-style: double;
 border-radius: 2%;
+}
+
+
+@media (max-width: 768px){
+.mentor{
+    display: flex;
+    align-items: center;
+}        
+    .mentores{
+        height: 380px;
+    }
+
+    .biografia{
+        height: 300px ;
+        text-align: center;
+        font-size: 22px;
+    }
+        
 }
 
 .nombre{
@@ -237,6 +284,22 @@ table{
     font-size: 25px;
     
 }
+
+@media (max-width:768px){
+    table{
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        font-size: 23px;
+        text-align: center;
+    }
+   thead{
+       font-size: 19px;
+   }
+   th{
+       padding: 5px;
+   }
+}
 th, td {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -259,7 +322,6 @@ tr:hover td{
 
 .listaflex{
     margin: 10px;
-    border: 4px solid blueviolet ;
     display: flex;
 margin: auto;
 padding-left: 20px ;
@@ -269,14 +331,30 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+@media (max-width:768px){
+    .listaflex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+}
 .lista1{
-    border: 1PX SOLID RED;
     margin: 30px;
     padding: 30px;
     width: 50%;
     font-size: 25px;
     color: rgb(20, 19, 19);
     font-family: monospace;
+    border-right: 4px solid  darkblue;
+}
+
+@media (max-width:768px){
+    .lista1{
+        border-right: none;
+        border-bottom: 4px solid darkblue;
+    }
 }
 .lista1 li{
     padding: 5px;
